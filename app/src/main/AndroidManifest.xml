@@ -12,6 +12,12 @@
         android:theme="@style/Theme.PopcornFactory"
         tools:targetApi="31">
         <activity
+            android:name=".ReservationDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SeatsSelection"
+            android:exported="false" />
+        <activity
             android:name=".MovieDetail"
             android:exported="false" />
         <activity
